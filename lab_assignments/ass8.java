@@ -25,12 +25,14 @@ class Matrix {
                 matx[i][j] = sc.nextInt();
             }
         }
+        sc.close();
     }
 
     static int rowColumnInput(String type, String matrix) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of " + type + " for " + matrix + ": ");
         int val = sc.nextInt();
+        sc.close();
         return val;
     }
 

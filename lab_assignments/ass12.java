@@ -53,5 +53,7 @@ public class ass12 {
 
         rect.area();
         tri.area();
+
+        sc.close();
     }
 }

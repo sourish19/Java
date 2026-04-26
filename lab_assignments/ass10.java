@@ -43,5 +43,7 @@ public class ass10 {
         
         rect.area();
         rectBox.volume();
+
+        sc.close();
     }
 }

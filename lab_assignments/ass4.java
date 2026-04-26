@@ -11,7 +11,7 @@ class Cone {
 
 public class ass4 {
     public static void main(String[] args) {
-        Cone c1 = new Cone(3, 5);
-        Cone c2 = new Cone();
+        new Cone(3, 5);
+        new Cone();
     }
 }

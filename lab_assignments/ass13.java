@@ -69,5 +69,7 @@ public class ass13 {
         System.out.println("Volume of Rectangular Parcel: " + vol);
         int cost = s.calculateShippingCost();
         System.out.println("Shipping cost of the parcel: " + cost);
+
+        sc.close();
     }
 }
