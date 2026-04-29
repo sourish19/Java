@@ -33,5 +33,6 @@ public class ass7 {
         stack.pop();
 
         stack.display();
+        sc.close();
     }
 }
